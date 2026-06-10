@@ -61,17 +61,25 @@ The dataset contains **1,010 residential customer records** generated to reflect
 
 -----
 
+
+
 ## Methodology
 
 The analysis was conducted in a single phase using Python inside a Jupyter Notebook, covering data loading, cleaning, feature engineering, exploratory data analysis, and visualisation.
 
+
+
 **Tools Used:** Python · Pandas · NumPy · Matplotlib · Seaborn
+
+
 
 **Phase 1: Data Inspection**
 
 The raw dataset was loaded using pd.read_csv() and inspected using .shape, .dtypes, .head(), and .isnull().sum().
 
 Pre-cleaning visualisations, histograms, box plots, and bar charts were produced to confirm quality issues before any cleaning was performed.
+
+
 
 **Phase 2: Data Cleaning**
 
@@ -88,6 +96,8 @@ Eight quality issues were identified and resolved systematically using Pandas:
 |Whitespace and casing issues in Region                            |Standardised with .str.strip().str.title()                                  |
 |Wrong data types in Annual_Consumption_kWh and Contract_Start_Date|Corrected using pd.to_numeric() and pd.to_datetime()                        |
 
+
+
 **Phase 3: Feature Engineering**
 
 Seven new columns were calculated entirely within the notebook.
@@ -102,6 +112,8 @@ Seven new columns were calculated entirely within the notebook.
 |Consumption_Band           |Binned into Low / Medium / High / Very High                                 |
 |Saving_Category            |Binned into No Saving / Low / Medium / High                                 |
 
+
+
 **Phase 4: Exploratory Data Analysis and Visualisation**
 
 Nine EDA outputs were produced covering tariff distribution, consumption patterns, saving potential, regional breakdowns, smart meter analysis, correlation analysis, and customer segmentation.
@@ -110,9 +122,16 @@ Four key insight charts were produced to directly answer the business questions.
 
 -----
 
+
+
 ## Analysis Results and Key Insights
 
+
+
 ### Business Question 1: Are customers on the right tariff?
+
+
+![Q1](Q1.Q1.jpg)
 
 The On_Right_Tariff flag and Chart 3 directly answer this question.
 
