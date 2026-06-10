@@ -131,7 +131,10 @@ Four key insight charts were produced to directly answer the business questions.
 ### Business Question 1: Are customers on the right tariff?
 
 
-![Q1](Q1.Q1.jpg)
+![Q1](Q1/Q1.jpg)
+
+
+![Q2](Q2/Q2.jpg)
 
 The On_Right_Tariff flag and Chart 3 directly answer this question.
 
@@ -141,7 +144,16 @@ Tariff misalignment is not an edge case, it is the norm across every one of the 
 
 The ratio of misaligned to correctly-placed customers is broadly consistent across all regions, confirming this is a nationwide structural problem rather than a localised one.
 
+
+
 ### Business Question 2: Which tariffs are associated with overpayment?
+
+
+![Q3](Q3/Q3.jpg)
+
+
+![Q4](Q4/Q4.jpg)
+
 
 The Cost_Per_kWh_Pence column and Chart 1 answer this question.
 
@@ -151,7 +163,17 @@ Critically, Prepayment Meter customers do not consume significantly more energy 
 
 They pay over 11 pence more per kWh than Economy 7 customers for the same volume of energy, making them the most overcharged group in the entire portfolio.
 
+
+
 ### Business Question 3: How does consumption vary across property types, regions, and heating systems?
+
+
+![Q5](Q5/Q5.jpg)
+
+
+![Q6](Q6/Q6.jpg)
+
+
 
 Chart 2 and the regional saving analysis answer this question.
 
@@ -163,7 +185,21 @@ Region has very little impact on savings potential, with the spread across all 1
 
 **Heating type is a stronger predictor than region** customers with Heat Pumps or Electric Heating consume significantly more and are best suited to Economy 7, which offers the cheapest overnight rate.
 
+
+
 ### Business Question 4: What is the total saving potential, and who benefits most?
+
+
+![Q7](Q7/Q7.jpg)
+
+
+![Q8](Q8/Q8.jpg)
+
+
+![Q9](Q9/Q9.jpg)
+
+
+
 
 The Potential_Annual_Saving_GBP column, Saving Category chart, and Top 10 chart answer this question.
 
