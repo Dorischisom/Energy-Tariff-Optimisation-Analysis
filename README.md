@@ -131,7 +131,7 @@ Four key insight charts were produced to directly answer the business questions.
 ### Business Question 1: Are customers on the right tariff?
 
 
-![Q1](Q1.Q1.jpg)
+![Q1](Q1.Q1.JPG)
 
 The On_Right_Tariff flag and Chart 3 directly answer this question.
 
